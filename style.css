@@ -18,13 +18,19 @@ body {
   padding: 100px;
   background: linear-gradient(to bottom right, #67b26f, #4ca2cd);
   height: 100vh;
+
+  display: flex;
+  align-items: center; /* Corss Axis */
+  justify-content: center; /* Main Axis */
 }
 
 .pizza {
   max-width: 800px;
   border-radius: 4px;
   box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+
   display: flex;
+  align-items: center;
 }
 
 .pizza__hero {
