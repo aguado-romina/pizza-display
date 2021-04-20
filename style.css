@@ -12,7 +12,6 @@ Mid: # 5aaa9d
   box-sizing: border-box;
 }
 
-html,
 body {
   color: #444;
   font-family: Roboto;
@@ -24,6 +23,18 @@ body {
 .pizza {
   display: flex;
 }
+
+.pizza__hero {
+}
+
 .pizza__img {
   width: 100%;
+}
+
+.pizza__content {
+  background: white;
+}
+
+.pizza__price {
+  background: linear-gradient(to bottom, #67b26f, #4ca2cd);
 }
