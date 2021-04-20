@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+/*
+green: #67b26f
+blue: #4ca2cd
+Mid: # 5aaa9d
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #444;
+  font-family: Roboto;
+  padding: 100px;
+  background: linear-gradient(to bottom right, #67b26f, #4ca2cd);
+}
